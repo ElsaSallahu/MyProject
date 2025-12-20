@@ -28,6 +28,9 @@ body{
     overflow-x: var(--main-bg-color);
     overflow-x: hidden;
 }
+button {
+    cursor:pointer;
+} 
 a {
     display: inline-block;
     text-decoration: none;
@@ -37,4 +40,48 @@ a {
 li {
     list-style-type: none;
     
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 100px;
+    position: relative;
+}
+
+.bg-second{
+    background-color: var(--second-bg-color);
+}
+
+.bg-main{
+    background-color: var(--main-bg-color);
+}
+
+.mobile-menu {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    display: none;
+
+}
+
+.mobile-menu {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    display: none;
+
+}
+.mb-menu-close{
+    display: none;
+}
+.top-header {
+    height: 30px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header ul {
+    display: flex;
 }
