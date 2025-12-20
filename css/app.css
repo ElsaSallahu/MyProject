@@ -133,7 +133,7 @@ ul.devided > li:last-child {
     display:flex;
     align-items:center;
     justify-content: space-between;
-    heifht: 80px;
+    height: 80px;
     background-color:var(--main-bg-color);
 }
 .logo{
@@ -273,7 +273,7 @@ ul.devided > li:last-child {
     height: 0;
     position: relative;
     /*display:flex ;*/
-    intset:0;
+    inset:0;
     overflow: hidden;
     visibility: hidden;
     display: none;
