@@ -755,7 +755,7 @@ footer ul li {
     top: -2px;
     color: var(--black);
     transform: scale(0);
-    front-size: 21px;
+    font-size: 21px;
     transition: transform 1s  ease-in-out;
 }
 
@@ -783,7 +783,7 @@ justify-content: flex-end;
 width: 35px;
 height: 35px;
 margin-left: 5px;
-front-size: 20px
+font-size: 20px
 }
 
 .pagination > li > a.active {
@@ -793,7 +793,7 @@ front-size: 20px
 }
 
 .pagination > li > a:hover{
-    barder: 2px solid var(--black);
+    border: 2px solid var(--black);
 }
 .prouductv-img {
     display: flex;
@@ -814,7 +814,6 @@ front-size: 20px
  }
  
  .filter-col {
-    position: ;
     width: 100%;
     background-color: var(--main-bg-color);
     z-index: 98;
@@ -838,13 +837,13 @@ front-size: 20px
     .header-wrapper {
         display:flex;
         flex-direction: column;
-        heigh: 100vh;
-        width:100%
+        height: 100vh;
+        width:100%;
         overflow-x:auto;
         position: fixed;
         top: 0;
         right: 100%;
-        background-color: var;(--main-bg-color);
+        background-color: var(--main-bg-color);
         z-index: 99;
         transition: right 0.3s ease-in-out;
     }
@@ -852,7 +851,7 @@ front-size: 20px
         right:0;
     }
     .logo {
-        front: size 40px;
+        font: size 40px;
     }
     .mb-menu-close{
         display: block;
@@ -860,7 +859,7 @@ front-size: 20px
         right: 40px;
         top: 18px;
         z-index: 99;
-        front-size: 25px;
+        font-size: 25px;
     }
     .top-header {
         display: none;
@@ -896,7 +895,7 @@ front-size: 20px
         padding: left 45px; ;
     }
     .mega-content h3 {
-        front: size 15px;
+        font: size 15px;
         padding: 5px 0;
         margin: unset;
     }
@@ -908,13 +907,13 @@ front-size: 20px
     }
     .hero {
         height: calc(
-            80vh-
-        );
-        var(--top-header-size) + var(--mid-header-size)+
+        80vh -
+        ( 
+        var(--top-header-size) + var(--mid-header-size) +
         var(--bottom-header-size)
-        )
-        );
-        margin-bottom: 100px;
+    )
+
+    );
     }
     .slide {
         flex-direction: column-reverse;
@@ -964,27 +963,27 @@ front-size: 20px
     .blog-info {
         width: 100%;
     }
-     @media only screen and (max-width:750px){
-        .hero {
-            height:calc(
-                80vh -
-            )
-               var(--top-header-size) + var(--mid-header-size)+
+     @media only screen and (max-width: 750px) {
+    .hero {
+    height: calc(
+        80vh -
+        ( 
+        var(--top-header-size) + var(--mid-header-size) +
         var(--bottom-header-size)
-        )
-        );
+    )
+
+    );
         margin-bottom: 100px;
         }
         .info-content h2 {
             margin: unset;
-            front-size: 40px;
+            font-size: 40px;
 
         }
         .promotion {
             padding-top: 45px;
         }
-        .promotion-box {
-            height: unset;
-    
-        }
- }
+       .promotion-box {
+        height: unset;
+    }
+     }}
