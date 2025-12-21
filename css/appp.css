@@ -874,12 +874,14 @@ footer ul li {
 .product-img > img {
     max-width: 70%;
 }
+
+
+-----
  .filter-toggle-box {
     display: block;
  }
 
  .filter-col {
-    position: fixed;
     width: 100%;
     background-color: var(--main-bg-color);
     z-index: 98;
