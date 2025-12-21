@@ -908,7 +908,11 @@ front-size: 20px
     .hero {
        height: calc(
     80vh -
-    (var(--top-header-size) + var(--mid-header-size) + var(--bottom-header-size))
+       (
+    (var(--top-header-size) +
+     var(--mid-header-size) +
+    var(--bottom-header-size)
+    )
 );
 
         margin-bottom: 100px;
@@ -965,7 +969,11 @@ front-size: 20px
         .hero {
          height: calc(
     80vh -
-    (var(--top-header-size) + var(--mid-header-size) + var(--bottom-header-size))
+         (
+    var(--top-header-size) + 
+    var(--mid-header-size) +
+     var(--bottom-header-size)
+     )
 );
 
         margin-bottom: 100px;
