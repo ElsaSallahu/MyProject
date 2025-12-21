@@ -255,7 +255,7 @@ ul.devided > li:last-child {
 }
 
 .mega-content{
-    opacity: 0;
+    kapacity: 0;
     visibility: hidden;
     position: absolute;
     left: 0;
