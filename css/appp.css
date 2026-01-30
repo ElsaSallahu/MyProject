@@ -631,12 +631,14 @@ ul.devided > li:last-child {
 
  .blog {
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
  }
 
  .blog-img,
  .blog-info{
     width: 50%;
+
+
 }
 
 .blog-info{
@@ -645,13 +647,15 @@ ul.devided > li:last-child {
 
 .blog-title {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
 }
 
 .blog-preview {
     text-align: justify;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
 
 footer {
     padding: 20px 0;
